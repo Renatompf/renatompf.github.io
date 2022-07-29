@@ -226,7 +226,7 @@
 		100%	{ opacity: 1; }
 	}
 
-	#overlay {
+	/*#overlay {
 		@include vendor('animation', 'overlay #{_duration(overlay)} #{$delay-overlay} forwards');
 		background-attachment: fixed, fixed;
 		background-image: url('images/overlay-pattern.png'), url('images/overlay.svg');
@@ -239,7 +239,7 @@
 		position: fixed;
 		top: 0;
 		width: 100%;
-	}
+	}*/
 
 /* Main */
 
@@ -263,7 +263,7 @@
 
 /* Header */
 
-	@include keyframes('header') {
+	/*@include keyframes('header') {
 		0%		{ @include vendor('transform', 'translate3d(0,1em,0)'); opacity: 0; }
 		100%	{ @include vendor('transform', 'translate3d(0,0,0)'); opacity: 1; }
 	}
@@ -271,7 +271,7 @@
 	@include keyframes('nav-icons') {
 		0%		{ @include vendor('transform', 'translate3d(0,1em,0)'); opacity: 0; }
 		100%	{ @include vendor('transform', 'translate3d(0,0,0)'); opacity: 1; }
-	}
+	}*/
 
 	#header {
 		@include vendor('animation', 'header #{_duration(header)} #{$delay-header} forwards');
